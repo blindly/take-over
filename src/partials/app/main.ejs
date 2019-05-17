@@ -1,0 +1,35 @@
+<script src="/js/class/Game.class.js"></script>
+
+<script>
+
+
+    function calculateRevenue() {
+        setInterval(() => {
+            Game.revenueCalculation();
+        }, 1000);
+    }
+
+    function saveGame() {
+        setInterval(() => {
+            Game.saveGame();
+        }, 30000);
+    }
+
+    function loadPenalty() {
+        setInterval(() => {
+            console.log("penalty");
+            Game.penalty();
+        }, 15000);
+    }
+
+    Game.loadSave();
+    Game.loadGame();
+    calculateRevenue();
+    //saveGame();
+    loadPenalty();
+
+    Game.saveGame();
+    //Game.penalty();
+
+
+</script>

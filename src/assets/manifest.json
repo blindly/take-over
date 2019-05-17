@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Corporate Take Over",
+  "theme_color": "#7f888f",
+  "background_color": "#27282C",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
